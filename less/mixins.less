@@ -1,0 +1,58 @@
+/*-----------------------------------
+| Time Savers
+------------------------------------*/
+
+.border-radius (@string){
+	-webkit-border-radius: @string;
+	-moz-border-radius: @string;
+	border-radius: @string;
+}
+
+.box-shadow (@string){
+	-webkit-box-shadow: @string;
+	-moz-box-shadow: @string;
+	border-radius: @string;
+}
+
+.transition (@string){
+	-webkit-transition: @string;
+	-moz-transition: @string;
+	transition: @string;
+}
+
+.opacity(@string){
+	-webkit-opacity: @string;
+	-moz-opacity: @string;
+	opacity: @string;
+}
+
+.clearfix{
+	zoom: 1;
+	&:after{
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+}
+
+.active{
+	display: block !important;
+}
+
+.box-sizing{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+/*-----------------------------------
+| Fontstacks
+------------------------------------*/
+
+.body (@size: 1em, @weight: 400, @lineheight: 1.6){
+	font: @weight @size 'proxima-nova', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	line-height: @lineheight;
+}

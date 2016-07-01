@@ -1,0 +1,19 @@
+{
+  "name": "muller-brockmann",
+  "version": "1.0.0",
+  "description": "Self initiated project celebrating Muller Brockmann",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djspider88/muller-brockmann.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djspider88/muller-brockmann/issues"
+  },
+  "homepage": "https://github.com/djspider88/muller-brockmann"
+}
