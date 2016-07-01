@@ -3,3 +3,56 @@
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
 }
+
+body{
+	.body;
+	background: url('img/bg.gif');
+}
+
+/* Containers */
+
+.large-container{
+	width: 100%;
+	max-width: 1500px;
+	display: block;
+	margin: 0 auto;
+}
+
+.small-left{
+	width: 100%;
+	max-width: 300px;
+	display: block;
+	float: left;
+}
+
+.large-right{
+	width: 100%;
+	max-width: 1150px;
+	display: block;
+	float: right;
+}
+
+/* Container Controllers */
+
+.bg-red{
+	background: #c12b2a;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.red{
+	color: #c12b2a;
+	a{
+		color: #c12b2a;
+		.transition (0.5s);
+		&:hover{
+			color: #c74b48;
+		}
+	}
+}
+
+.cream{
+	color: #f7f0e7;
+}

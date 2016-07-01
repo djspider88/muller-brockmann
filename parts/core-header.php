@@ -17,6 +17,9 @@
 	<link rel='stylesheet' href='style.css' type='text/css' media='screen' />
 	<script src='js/app.min.js' type='text/javascript'></script>
 
+	<script src="https://use.typekit.net/bis7mfq.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
